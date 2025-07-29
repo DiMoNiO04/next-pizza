@@ -43,8 +43,6 @@ const eslintConfig = [
           ignoreComments: false,
         },
       ],
-      'simple-import-sort/imports': 'warn',
-      'simple-import-sort/exports': 'warn',
     },
   }
 ];

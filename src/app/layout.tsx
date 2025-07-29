@@ -1,3 +1,4 @@
+import { Header } from '@/components/shared'
 import './globals.css'
 
 import type { Metadata } from 'next'
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body className={nunito.variable}>
+        <Header />
         <main className="min-h-screen">{children}</main>
       </body>
     </html>
