@@ -1,0 +1,51 @@
+export const PIZZAS = [
+  {
+    id: 0,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+  {
+    id: 1,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+  {
+    id: 2,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+  {
+    id: 3,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+  {
+    id: 4,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+  {
+    id: 5,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+  {
+    id: 6,
+    name: 'Чизбургер-пицца',
+    price: 500,
+    imageUrl: 'https://media.dodostatic.net/image/r:292x292/0195adc3a4cb700a904225a22303bcb2.avif',
+    items: [{ price: 500 }],
+  },
+]
