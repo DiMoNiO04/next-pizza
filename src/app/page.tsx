@@ -1,5 +1,5 @@
 import { Container, Filters, ProductsGroupList, Title, TopBar } from '@/components/shared'
-import { PIZZAS } from '@/data/pizzas'
+import { CATEGORIES, PIZZAS } from '@/data'
 
 export default function Home() {
   return (
@@ -15,7 +15,9 @@ export default function Home() {
           </div>
           <div className="flex-1">
             <div className="flex flex-col gap-16">
-              <ProductsGroupList title="Пиццы" items={PIZZAS} categoryId={1} />
+              {CATEGORIES.map(({ id, name }) => (
+                <ProductsGroupList key={id} title={name} items={PIZZAS} categoryId={id} />
+              ))}
             </div>
           </div>
         </div>
