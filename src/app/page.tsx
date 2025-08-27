@@ -1,5 +1,5 @@
-import { Container, Filters, ProductsGroupList, Title, TopBar } from '@/components/shared'
-import { CATEGORIES, PIZZAS } from '@/data'
+import { Container, Filters, ProductsGroupList, Title, TopBar } from '@/src/components/shared'
+import { CATEGORIES, PIZZAS } from '@/src/data'
 
 export default function Home() {
   return (

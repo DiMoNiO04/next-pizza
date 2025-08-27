@@ -2,7 +2,7 @@
 
 import * as SliderPrimitive from '@radix-ui/react-slider'
 
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import { forwardRef, Fragment, RefObject, useEffect, useState } from 'react'
 
 interface IRangeSliderProps {

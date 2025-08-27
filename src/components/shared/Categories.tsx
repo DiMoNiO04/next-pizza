@@ -1,8 +1,8 @@
 'use client'
 
-import { CATEGORIES } from '@/data'
-import { cn } from '@/lib/utils'
-import { useCategoryStore } from '@/store'
+import { CATEGORIES } from '@/src/data'
+import { cn } from '@/src/lib/utils'
+import { useCategoryStore } from '@/src/store'
 
 interface ICategoriesProps {
   className?: string

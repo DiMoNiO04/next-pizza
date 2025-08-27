@@ -1,4 +1,4 @@
-import { Header } from '@/components/shared'
+import { Header } from '@/src/components/shared'
 import './globals.css'
 
 import type { Metadata } from 'next'

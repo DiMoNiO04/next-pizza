@@ -1,4 +1,4 @@
-import { ALL_INGREDIENTS, DEFAULT_INGREDIENTS } from '@/data'
+import { ALL_INGREDIENTS, DEFAULT_INGREDIENTS } from '@/src/data'
 import { Input } from '../ui'
 import { CheckboxFiltersGroup } from './CheckboxFiltersGroup'
 import { FilterCheckbox } from './FilterCheckbox'

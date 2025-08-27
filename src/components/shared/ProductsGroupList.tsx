@@ -1,11 +1,11 @@
 'use client'
 
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import { Title } from './Title'
 import { ProductCard } from './ProductCard'
 import { useIntersection } from 'react-use'
 import { RefObject, useEffect, useRef } from 'react'
-import { useCategoryStore } from '@/store'
+import { useCategoryStore } from '@/src/store'
 
 interface IProductsGroupListProps {
   title: string
